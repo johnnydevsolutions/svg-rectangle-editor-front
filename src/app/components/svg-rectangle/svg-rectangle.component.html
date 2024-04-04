@@ -1,0 +1,10 @@
+<div class="svg-container">
+<svg width="400" height="400" (mousemove)="onMouseMove($event)" (mouseup)="onMouseUp()" (mouseleave)="onMouseUp()">
+    <rect #rect [attr.x]="rectX" [attr.y]="rectY" [attr.width]="rectWidth" [attr.height]="rectHeight"
+          (mousedown)="onMouseDown($event)" />
+    <rect [attr.x]="rectX + rectWidth - 10" [attr.y]="rectY + rectHeight - 10" width="10" height="10"
+          class="handle" (mousedown)="onResizeHandleDown($event)"></rect>
+  </svg>
+  <p>Perimeter: {{ perimeter }}</p>
+  <button (click)="saveDimensions()">Save Dimensions</button>
+</div>

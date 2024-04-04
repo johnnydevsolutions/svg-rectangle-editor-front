@@ -1,0 +1,67 @@
+svg {
+    width: 100%;
+  max-height: 80vh;
+    border: 1px solid #ccc;
+    cursor: grab;
+    max-width: 100%;
+  }
+
+  .svg-container {
+    text-align: center;
+    margin-top: 50px;
+    width: 90vw;
+    max-width: 600px; 
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+  
+  rect {
+    transition: fill 0.3s ease; 
+  }
+  rect:hover {
+    fill: #00bcd4;
+  }  
+  
+  rect:active {
+    cursor: grabbing;
+  }
+  
+  p {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .handle {
+    fill: #ffeb3b;
+    stroke: #fbc02d;
+  }
+  
+  .handle:hover {
+    fill: #666;
+  }
+  .handle:hover {
+    fill: #fdd835;
+  }
+  
+  rect:active, .handle:active {
+    cursor: grabbing;
+    fill: #4caf50;
+  }
+
+  button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #009688;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #00796b;
+  }
+  
