@@ -22,6 +22,7 @@ The perimeter of a rectangle is calculated using the formula `2 * (width + heigh
 To run the backend:
 1. Navigate to the backend folder.
 2. Run `dotnet watch run`.
+3. You will be redirected to Swagger at the URL: https://localhost:5001/swagger/index.html.
 
 ### Frontend
 To run the frontend:
@@ -40,4 +41,4 @@ To run the frontend:
 - Backend (ASP.NET Core): Provides the API for loading and saving dimensions.
 
 ## Author
-[Your Name]
+Johnny A. Andrade
